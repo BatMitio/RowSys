@@ -1,8 +1,46 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A5491AF5-8CF0-4FAE-A377-EDEB939AD1F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FDD8D88A-034E-42E7-A852-7C25D512A373}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A902E45C-1800-43EB-9226-7FB2CF14275C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{57563AD4-F018-4BED-B1B7-E7805F040C83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{53AFF69D-42CB-4C38-B0FC-55B1AEF97F3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RowSys.Common.BusinessLayer", "src\Common\RowSys.Common.BusinessLayer\RowSys.Common.BusinessLayer.csproj", "{BE4DE5DD-6049-475F-924F-549846DE92D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RowSys.Services.Api", "src\Services\RowSys.Services.Api\RowSys.Services.Api.csproj", "{B65FF37C-F5E1-4D36-A371-C8A3C7FF9D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RowSys.Common.DataLayer", "src\Common\RowSys.Common.DataLayer\RowSys.Common.DataLayer.csproj", "{69674F7E-F95A-4885-8287-A2AB0C69A246}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A902E45C-1800-43EB-9226-7FB2CF14275C} = {A5491AF5-8CF0-4FAE-A377-EDEB939AD1F6}
+		{57563AD4-F018-4BED-B1B7-E7805F040C83} = {A5491AF5-8CF0-4FAE-A377-EDEB939AD1F6}
+		{53AFF69D-42CB-4C38-B0FC-55B1AEF97F3F} = {A5491AF5-8CF0-4FAE-A377-EDEB939AD1F6}
+		{BE4DE5DD-6049-475F-924F-549846DE92D9} = {A902E45C-1800-43EB-9226-7FB2CF14275C}
+		{B65FF37C-F5E1-4D36-A371-C8A3C7FF9D07} = {53AFF69D-42CB-4C38-B0FC-55B1AEF97F3F}
+		{69674F7E-F95A-4885-8287-A2AB0C69A246} = {A902E45C-1800-43EB-9226-7FB2CF14275C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE4DE5DD-6049-475F-924F-549846DE92D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4DE5DD-6049-475F-924F-549846DE92D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4DE5DD-6049-475F-924F-549846DE92D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4DE5DD-6049-475F-924F-549846DE92D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B65FF37C-F5E1-4D36-A371-C8A3C7FF9D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65FF37C-F5E1-4D36-A371-C8A3C7FF9D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65FF37C-F5E1-4D36-A371-C8A3C7FF9D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65FF37C-F5E1-4D36-A371-C8A3C7FF9D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69674F7E-F95A-4885-8287-A2AB0C69A246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69674F7E-F95A-4885-8287-A2AB0C69A246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69674F7E-F95A-4885-8287-A2AB0C69A246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69674F7E-F95A-4885-8287-A2AB0C69A246}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
